@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Japeko</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body class="body">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-nav navbar-dark fixed-top py-3">
+      <div class="container">
+        <a href="#" class="navbar-brand text-success">JAPEKO</a>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#products" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">About</a>
+            </li>
+            <li class="nav-item d-md-none">
+              <a href="#contact" class="nav-link">Login</a>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-light btn-fluid d-none d-sm-block"
+          style="width: 100px; border-radius: 25px"
+        >
+          Login
+        </button>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <section
+      class="bg-transparent text-white text-center text-sm-start mt-5 pt-5 pb-5pb-lg-0"
+      id="home"
+    >
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div>
+            <h1>Bingung cari pinjaman Laptop?</h1>
+
+            <p class="lead">
+              Di Japeko aja, jasa penyewaan terlengkap, termurah dan bergaransi.
+            </p>
+
+            <button class="btn btn-light">Order now</button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="image/computer.svg"
+            alt="header"
+            style="border-radius: 10px"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- keunggulan -->
+    <section
+      class="mt-5 p-5 bg-light"
+      style="border-top-right-radius: 50px; border-top-left-radius: 50px"
+      id="keunggulan"
+    >
+      <div class="container text-black" style="text-align: center">
+        <h1>KENAPA SI HARUS PINJAM DI JAPEKO</h1>
+        <div class="row text-center g-4 pt-5">
+          <div class="col-md">
+            <div class="card box-unggul" style="height: 450px">
+              <img src="image/deal.svg" class="p-5 card-img-top" alt="deal" />
+              <div class="card-body">
+                <h5 class="card-title">Harga Murah</h5>
+                <p class="card-text">
+                  JAPEKO membantu anda menentukan pilihan Laptop/Property dengan
+                  biaya sewa relative lebih murah bersama partner rental kami.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card box-unggul" style="height: 450px">
+              <img
+                src="image/programing.svg"
+                class="p-5 card-img-top"
+                alt="programing"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Banyak Varian Spec</h5>
+                <p class="card-text">
+                  JAPEKO memberikan kepuasan penuh kepada anda untuk memilih
+                  Device dari berbagai tipe dan merk sehingga dapat memenuhi
+                  kebutuhan Anda.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card box-unggul" style="height: 450px">
+              <img
+                src="image/discount.svg"
+                class="p-5 card-img-top"
+                alt="discount"
+              />
+              <div class="card-body">
+                <h5 class="card-title pt-5">Mudah & Fleksibel</h5>
+                <p class="card-text">
+                  Anda dapat menyewa Laptop dimana saja dan kapan saja dari
+                  berbagai partner rental kami.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product -->
+    <section class="mt-5 p-5 bg-transparent" id="products">
+      <div class="container text-white" style="text-align: center">
+        <h1>JAPEKO PRODUCTS CATEGORY</h1>
+        <div class="row text-center g-4 pt-5">
+          <div class="col-md">
+            <div class="card info" style="height: 300px">
+              <img src="image/school.jpg" class="card-img-top" alt="school" />
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: left">
+                  School
+                  <a class="link" href=""
+                    >Show
+                    <i class="bi bi-arrow-right-circle"></i>
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card info" style="height: 300px">
+              <img src="image/office.jpg" class="card-img-top" alt="office" />
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: left">
+                  Office
+                  <a class="link" href=""
+                    >Show
+                    <i class="bi bi-arrow-right-circle"></i>
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card info" style="height: 300px">
+              <img src="image/gaming.jpg" class="card-img-top" alt="gaming" />
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: left">
+                  Gaming
+                  <a class="link" href=""
+                    >Show
+                    <i class="bi bi-arrow-right-circle"></i>
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimony -->
+    <section class="bg-light testimony mt-5 p-5">
+      <div class="container" style="text-align: center">
+        <h1>TESTIMONY CUSTOMER</h1>
+        <div class="container mt-5">
+          <div class="row-md d-flex">
+            <img
+              class="img-fluid w-50 d-none d-sm-block"
+              src="image/testimony.svg"
+              alt="testimony"
+              style="border-radius: 10px"
+            />
+
+            <div class="row-md ms-auto">
+              <div class="col p-2">
+                <div class="card h-100 customer-rate">
+                  <div class="card-header d-flex align-items-center">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </div>
+                  <div class="card-body" style="text-align: left">
+                    <blockquote class="blockquote mb-0">
+                      <h4>Caca</h4>
+                      <footer class="blockquote">
+                        Pelayanan yang di berikan sangat memuaskan.
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col p-2">
+                <div class="card h-100 customer-rate">
+                  <div class="card-header d-flex align-items-center">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </div>
+                  <div class="card-body" style="text-align: left">
+                    <blockquote class="blockquote mb-0">
+                      <h4>Edy</h4>
+                      <footer class="blockquote">
+                        Device datang sesuai request.
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col p-2">
+                <div class="card h-100 customer-rate">
+                  <div class="card-header d-flex align-items-center">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </div>
+                  <div class="card-body" style="text-align: left">
+                    <blockquote class="blockquote mb-0">
+                      <h4>Anya</h4>
+                      <footer class="blockquote">
+                        Device berfungsi dengan baik.
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer
+      class="p-5 bg-dark text-white text-center position-relative d-sm-block"
+    >
+      <div class="container d-flex">
+        <div class="brand-sponsor">
+          <h1 class="text-success" style="text-align: left">JAPEKO</h1>
+          <img src="image/lenovo.png" alt="lenovo" />
+          <img src="image/acer.png" alt="acer" />
+          <img src="image/asus.png" alt="asus" />
+          <img src="image/hp.png" alt="hp" />
+          <img src="image/msi.png" alt="msi" />
+        </div>
+
+        <div class="container d-flex" style="margin-left: 300px">
+          <ul
+            class="list-group list-group-flush border-0 list-nav"
+            style="text-align: left"
+          >
+            <li class="list-group-item" style="font-weight: bold">
+              NAVIGATION
+            </li>
+            <li class="list-group-item"><a href="#home">Home</a></li>
+            <li class="list-group-item"><a href="#products">Products</a></li>
+            <li class="list-group-item"><a href="">About</a></li>
+            <li class="list-group-item"><a href="">Login</a></li>
+          </ul>
+
+          <ul
+            class="list-group list-group-flush border-0 list-nav"
+            style="text-align: left"
+          >
+            <li class="list-group-item" style="font-weight: bold">PRODUCT</li>
+            <li class="list-group-item"><a href="">School</a></li>
+            <li class="list-group-item"><a href="">Office</a></li>
+            <li class="list-group-item"><a href="">Gaming</a></li>
+          </ul>
+
+          <ul
+            class="list-group list-group-flush border-0 list-nav"
+            style="text-align: left; width: 150px;"
+          >
+            <li class="list-group-item" style="font-weight: bold">LOCATION</li>
+            <lead>
+              <li class="list-group-item border-0 bg-transparent text-white">
+                <i class="bi bi-geo-alt"></i>
+                <span class="fw-bold">Location :</span>
+                <br />
+                Jl Genteng
+                <br>
+                Jl Dieng
+              </li>
+            </lead>
+          </ul>
+
+          <ul
+            class="list-group list-group-flush border-0 list-nav"
+            style="text-align: left"
+          >
+            <li class="list-group-item" style="font-weight: bold">CONTACT</li>
+            <lead>
+              <li class="list-group-item border-0 bg-transparent text-white">
+                <i class="bi bi-instagram"></i>
+                <span class="fw-bold">Instagram :</span>
+                <br />@japeko_id
+              </li>
+              <li class="list-group-item border-0 bg-transparent text-white">
+                <i class="bi bi-telephone"></i>
+                <span class="fw-bold">Mobile Phone :</span>
+                <br />(+62) 857-2454-34
+              </li>
+              <li class="list-group-item border-0 bg-transparent text-white">
+                <i class="bi bi-envelope"></i>
+                <span class="fw-bold">Email :</span>
+                <br />japeko@gimail.com
+              </li>
+            </lead>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="lead mb-0" style="text-align: center">
+        Copyright &copy; 2021 Japeko.
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

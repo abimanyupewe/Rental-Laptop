@@ -1,0 +1,73 @@
+.body {
+  background-color: #240a34;
+}
+
+.navbar-berand {
+  font-family: Tahoma;
+}
+
+.collapse {
+  padding-right: 400px;
+}
+
+.bg-nav {
+  background-color: #240a34;
+}
+
+.info:hover {
+  background-color: #36293f;
+  color: #efefef;
+}
+
+.link {
+  text-decoration: none;
+  padding-left: 170px;
+}
+
+.link:hover {
+  color: #efefef;
+  text-decoration: underline;
+}
+
+.card-header i {
+  justify-items: center;
+  color: orangered;
+}
+
+.testimony {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.customer-rate:hover,
+.box-unggul:hover {
+  background-color: #36293f;
+  color: #efefef;
+}
+
+/* footer */
+.list-nav li {
+  border: 0px;
+  color: #646464;
+  background: transparent;
+}
+
+.list-nav li a {
+  text-decoration: none;
+  color: #efefef;
+}
+
+.list-nav li a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.list-group {
+  margin-left: 30px;
+}
+
+.brand-sponsor img {
+  padding: 5px;
+  display: inline-flexbox;
+  width: 60px;
+}
